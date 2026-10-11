@@ -1,0 +1,27 @@
+{
+  "name": "immocash",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ImmoCash – lokaler, mobiler Immobilien-Investment-Rechner auf GitHub Pages",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "python3 -m http.server 4173 --directory out",
+    "test": "node --test tests/*.test.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=20.9" },
+  "dependencies": {
+    "jspdf": "^3.0.3",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}
